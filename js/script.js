@@ -4,6 +4,7 @@ const heroSlider = new Swiper('.hero__slider', {
   pagination: {
     el: '.hero__pagination',
   },
+  slideToClickedSlide: true,
 });
 const licenseSlider = new Swiper('.license__slider', {
   loop: true,
